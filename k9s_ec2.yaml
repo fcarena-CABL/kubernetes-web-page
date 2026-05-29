@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend        
-        image: polivionofa/backend:2.0
+        image: fcarenaf/backend:2.0
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
@@ -48,7 +48,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: polivionofa/frontend:2.0
+        image: fcarenaf/frontend:2.0
         imagePullPolicy: Always
         ports:
         - containerPort: 80
